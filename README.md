@@ -6,12 +6,6 @@ Your site is live at https://bonnebetty.github.io/unstuck/
 
 ---
 
-## Live Demo
-
-- **Online Link**: `https://<your-username>.github.io/<repository-name>/`  
-*(Leave empty or update with your GitHub Pages link once deployed)*
-
----
 
 ## Features
 
