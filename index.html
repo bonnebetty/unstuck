@@ -152,13 +152,18 @@
              QUESTION 1: IDENTIFY (What do you understand so far?)
              ---------------------------------------------------------- -->
         <article class="reflection-card">
-          <h4 class="reflection-card-title">1. What do you understand so far?</h4>
+          <div class="card-step-header">
+            <span class="step-badge">STEP 1</span>
+            <span class="optional-pill">Optional</span>
+          </div>
+          <h4 class="reflection-card-title">What do you understand so far?</h4>
           <p class="reflection-card-desc">
             Write down anything you understand about this topic, even if it's incomplete.
           </p>
-          <p class="reflection-card-subhelper">
-            Start with what you know, even if it's just one small thing.
-          </p>
+          <div class="reflection-card-subhelper">
+            <span class="subhelper-icon">💡</span>
+            <span>Start with what you know, even if it's just one small thing.</span>
+          </div>
           <textarea
             id="q1-textarea"
             class="reflection-textarea"
@@ -175,13 +180,18 @@
              QUESTION 2: CLARIFY (Where are you getting stuck?)
              ---------------------------------------------------------- -->
         <article class="reflection-card">
-          <h4 class="reflection-card-title">2. Where are you getting stuck?</h4>
+          <div class="card-step-header">
+            <span class="step-badge">STEP 2</span>
+            <span class="step-guide-pill">Select up to 2</span>
+          </div>
+          <h4 class="reflection-card-title">Where are you getting stuck?</h4>
           <p class="reflection-card-desc">
             Click a keyword to explore options. You can select up to two statements across categories.
           </p>
-          <p class="reflection-card-subhelper">
-            You don't need to know why you're confused. Just identify what feels unclear.
-          </p>
+          <div class="reflection-card-subhelper">
+            <span class="subhelper-icon">💡</span>
+            <span>You don't need to know why you're confused. Just identify what feels unclear.</span>
+          </div>
           
           <!-- Keyword categories row -->
           <div id="q2-keywords" class="keywords-row">
@@ -215,13 +225,18 @@
              QUESTION 3: SEEK HELP (What kind of help would you like?)
              ---------------------------------------------------------- -->
         <article class="reflection-card">
-          <h4 class="reflection-card-title">3. What kind of help would you like?</h4>
+          <div class="card-step-header">
+            <span class="step-badge">STEP 3</span>
+            <span class="step-guide-pill">Select up to 2</span>
+          </div>
+          <h4 class="reflection-card-title">What kind of help would you like?</h4>
           <p class="reflection-card-desc">
             Click a keyword to explore options. You can select up to two help preferences across categories.
           </p>
-          <p class="reflection-card-subhelper">
-            Think about what you would want your teacher or classmates to do to help you.
-          </p>
+          <div class="reflection-card-subhelper">
+            <span class="subhelper-icon">💡</span>
+            <span>Think about what you would want your teacher or classmates to do to help you.</span>
+          </div>
 
           <!-- Keyword categories row -->
           <div id="q3-keywords" class="keywords-row">
@@ -247,7 +262,13 @@
              OTHER WAYS TO GET UNSTUCK (Rule-based recommendations)
              ---------------------------------------------------------- -->
         <div id="recommendations-box" class="recommendations-box">
-          <h5 class="recommendations-title">Other ways to get unstuck</h5>
+          <div class="recommendations-header-row">
+            <div class="recommendations-title-group">
+              <span class="rec-icon-badge">💡</span>
+              <h5 class="recommendations-title">Other ways to get unstuck</h5>
+            </div>
+            <span class="rec-tag-pill">Suggested Strategy</span>
+          </div>
           <div id="recommendations-content">
             <!-- User choices + helpful strategy recommendations -->
           </div>
@@ -267,11 +288,15 @@
             aria-controls="question-section-body"
           >
             <div class="collapsible-title-row">
+              <span class="step-badge step-badge-highlight">FINAL STEP</span>
               <span class="collapsible-chevron" id="question-section-chevron">▸</span>
               <span class="collapsible-title">Prepare My Question</span>
-              <span id="question-saved-indicator" class="question-saved-badge" style="display: none;">Draft saved</span>
+              <span id="question-saved-indicator" class="question-saved-badge" style="display: none;">✓ Draft saved</span>
             </div>
-            <span class="collapsible-subtext">Click to open &amp; draft your question</span>
+            <div class="collapsible-cta-indicator">
+              <span class="collapsible-subtext">Click to formulate</span>
+              <span class="collapsible-arrow-badge">Open ▾</span>
+            </div>
           </button>
 
           <!-- Collapsible Body (Hidden by default) -->
